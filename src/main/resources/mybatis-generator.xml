@@ -32,6 +32,8 @@
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
 
+        <table tableName="copy" domainObjectName="CopyEntity"/>
+        <table tableName="log" domainObjectName="LogEntity"/>
     </context>
 
 </generatorConfiguration>
